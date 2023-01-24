@@ -1,13 +1,11 @@
 import * as React from "react"
 import "../styles.css"
-import { Slice } from "gatsby"
+// import { Slice } from "gatsby"
 
 const Layout = ({ children }) => {
   return (
     <>
-      <Slice alias="header" />
-      {children}
-      <Slice alias="footer" />
+      <header>{children}</header>
     </>
   )
 }
